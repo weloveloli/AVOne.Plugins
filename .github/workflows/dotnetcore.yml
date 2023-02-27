@@ -28,7 +28,7 @@ jobs:
 
       - name: Build Plugins
         run: |
-          dotnet build --configuration Release -p:Version=${{ steps.shell.outputs.version }} .\AVOne.Plugins.MetaTube
+          dotnet build ./AVOne.Plugins.MetaTube --configuration Release -p:Version=${{ steps.shell.outputs.version }} 
 
       - name: Generate Manifest
         run: |
