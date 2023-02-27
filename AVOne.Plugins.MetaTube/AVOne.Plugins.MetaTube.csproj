@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AVOne.Plugins.MetaTube</RootNamespace>
+    <Version>$([System.DateTime]::UtcNow.ToString(yyyy.MMdd.HHmm.0))</Version>
+  </PropertyGroup>
+ <ItemGroup>
+    <PackageReference Include="AVOne.Common" Version="0.0.3" />
+  </ItemGroup>
+  <Target Name="Zip" AfterTargets="PostBuildEvent" Condition="'$(Configuration)'=='Release'">
+    <ItemGroup>
+      <FilesToDelete Include="$(BaseOutputPath)AVOne.MetaTube*.zip" Condition="'$(Configuration)'=='Release'" />
+      <TempZipDirectory Include="$(OutputPath)output" />
+    </ItemGroup>
+    <Delete Files="@(FilesToDelete)" />
+    <Copy SourceFiles="$(OutputPath)$(AssemblyName).dll" DestinationFolder="@(TempZipDirectory)" />
+    <ZipDirectory SourceDirectory="@(TempZipDirectory)" DestinationFile="$(BaseOutputPath)AVOne.MetaTube@v$(Version).zip" Condition="'$(Configuration)'=='Release'" />
+    <RemoveDir Directories="@(TempZipDirectory)" />
+  </Target>
+</Project>
