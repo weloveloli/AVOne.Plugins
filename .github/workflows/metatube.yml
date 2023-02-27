@@ -1,4 +1,4 @@
-name: .NET
+name: metatube
 
 on:
   workflow_dispatch:
@@ -32,7 +32,7 @@ jobs:
 
       - name: Generate Manifest
         run: |
-          python3 scripts/manifest.py AVOne.Plugins.MetaTube/bin/AVOne.MetaTube@v${{ steps.shell.outputs.version }}.zip
+          python3 scripts/metatube.py AVOne.Plugins.MetaTube/bin/AVOne.MetaTube@v${{ steps.shell.outputs.version }}.zip
 
       - name: Publish Manifest
         run: |
