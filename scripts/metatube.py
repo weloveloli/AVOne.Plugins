@@ -15,7 +15,7 @@ def generate(filename, version):
     return {
         'checksum': md5sum(filename),
         'changelog': 'Auto Released by Actions',
-        'targetAbi': '0.0.4.0',
+        'targetAbi': '0.0.5.0',
         'sourceUrl': 'https://github.com/weloveloli/AVOne.Plugins/releases/download/'
                      f'v{version}/AVOne.MetaTube@v{version}.zip',
         'timestamp': datetime.now().strftime('%Y-%m-%dT%H:%MZ'),
