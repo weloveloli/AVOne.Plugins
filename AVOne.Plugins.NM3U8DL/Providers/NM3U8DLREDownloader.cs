@@ -25,6 +25,8 @@ namespace AVOne.Plugins.NM3U8DL.Providers
         }
 
         public string Name => "N_m3u8DL-RE";
+        
+        public string DisplayName => "NM3U8DLREDownloader";
 
         public int Order => 0;
 

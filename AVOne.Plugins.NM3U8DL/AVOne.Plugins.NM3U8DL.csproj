@@ -1,14 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
     <RootNamespace>AVOne.Plugins.NM3U8DL</RootNamespace>
+    <Version>$([System.DateTime]::UtcNow.ToString(yyyy.MMdd.HHmm.0))</Version>
   </PropertyGroup>
- <ItemGroup>
-    <PackageReference Include="AVOne.Common" Version="0.0.4" />
-  </ItemGroup>
   <Target Name="Zip" AfterTargets="PostBuildEvent" Condition="'$(Configuration)'=='Release'">
     <ItemGroup>
       <FilesToDelete Include="$(BaseOutputPath)AVOne.NM3U8DL*.zip" Condition="'$(Configuration)'=='Release'" />

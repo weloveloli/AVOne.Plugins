@@ -1,0 +1,12 @@
+<Project>
+  <!-- See https://aka.ms/dotnet/msbuild/customize for more details on customizing your build -->
+  <PropertyGroup>
+          <TargetFramework>net7.0</TargetFramework>
+          <ImplicitUsings>enable</ImplicitUsings>
+          <Nullable>enable</Nullable>
+          <Version>$([System.DateTime]::UtcNow.ToString(yyyy.MMdd.HHmm.0))</Version>
+  </PropertyGroup>
+   <ItemGroup>
+    <PackageReference Include="AVOne.Common" Version="0.0.5" />
+  </ItemGroup>
+</Project>
