@@ -18,7 +18,7 @@ def generate(filename, version):
         'targetAbi': '0.0.5.0',
         'sourceUrl': 'https://github.com/weloveloli/AVOne.Plugins/releases/download/'
                      f'v{version}/AVOne.MetaTube@v{version}.zip',
-        'timestamp': datetime.now().strftime('%Y-%m-%d'),
+        'timestamp': datetime.now().strftime('%Y-%m-%dT%XZ'),
         'version': version
     }
 
