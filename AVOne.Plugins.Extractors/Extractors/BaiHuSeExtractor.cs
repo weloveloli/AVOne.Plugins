@@ -1,7 +1,7 @@
 ﻿// Copyright (c) 2023 Weloveloli. All rights reserved.
 // See License in the project root for license information.
 
-namespace AVOne.Plugin.Extractors.Extractors
+namespace AVOne.Plugins.Extractors.Extractors
 {
     using System.Collections.Generic;
     using System.Net.Http;
@@ -9,7 +9,7 @@ namespace AVOne.Plugin.Extractors.Extractors
     using AVOne.Enum;
     using AVOne.Extensions;
     using AVOne.Models.Download;
-    using AVOne.Plugin.Extractors.Base;
+    using AVOne.Plugins.Extractors.Base;
     using Fizzler.Systems.HtmlAgilityPack;
     using HtmlAgilityPack;
     using Microsoft.Extensions.Logging;
