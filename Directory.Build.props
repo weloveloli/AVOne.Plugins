@@ -7,6 +7,6 @@
           <Version>$([System.DateTime]::UtcNow.ToString(yyyy.MMdd.HHmm.0))</Version>
   </PropertyGroup>
    <ItemGroup>
-    <PackageReference Include="AVOne.Common" Version="0.2.2" />
+    <PackageReference Include="AVOne.Common" Version="0.2.6" />
   </ItemGroup>
 </Project>
