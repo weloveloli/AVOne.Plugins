@@ -32,8 +32,8 @@ def main():
     with urlopen('https://raw.githubusercontent.com/weloveloli/AVOne.Plugins/dist/manifest.json') as f:
         manifest = json.load(f)
 
-    manifest[0]['versions'].insert(0, generate(filename, version))
-    manifest[0]['versions'] = sorted(manifest[0]['versions'], key=lambda x: x["version"], reverse=True)
+    manifest[2]['versions'].insert(0, generate(filename, version))
+    manifest[2]['versions'] = sorted(manifest[2]['versions'], key=lambda x: x["version"], reverse=True)
     with open('manifest.json', 'w') as f:
         json.dump(manifest, f, indent=2)
 
