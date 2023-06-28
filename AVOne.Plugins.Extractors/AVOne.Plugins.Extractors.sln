@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AVOne.Plugins.Extractors", "AVOne.Plugins.Extractors.csproj", "{74DDBD9D-1766-4D30-9885-9A088902A248}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVOne.Plugins.Extractors.Tests", "..\AVOne.Plugins.Extractors.Tests\AVOne.Plugins.Extractors.Tests.csproj", "{6B74C4C9-6FAB-4252-9DDD-17143AAE204D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{74DDBD9D-1766-4D30-9885-9A088902A248}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74DDBD9D-1766-4D30-9885-9A088902A248}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74DDBD9D-1766-4D30-9885-9A088902A248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B74C4C9-6FAB-4252-9DDD-17143AAE204D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B74C4C9-6FAB-4252-9DDD-17143AAE204D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B74C4C9-6FAB-4252-9DDD-17143AAE204D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B74C4C9-6FAB-4252-9DDD-17143AAE204D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

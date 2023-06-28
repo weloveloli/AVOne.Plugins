@@ -7,7 +7,7 @@
     <RootNamespace>AVOne.Plugins.Extractors</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Fizzler.Systems.HtmlAgilityPack" Version="1.2.1" />
+    <PackageReference Include="Fizzler.Systems.HtmlAgilityPack" />
   </ItemGroup>
   <Target Name="Zip" AfterTargets="PostBuildEvent" Condition="'$(Configuration)'=='Release'">
     <ItemGroup>

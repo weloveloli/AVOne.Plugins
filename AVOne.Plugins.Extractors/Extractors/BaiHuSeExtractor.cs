@@ -4,8 +4,6 @@
 namespace AVOne.Plugins.Extractors.Extractors
 {
     using System.Collections.Generic;
-    using System.Net.Http;
-    using AVOne.Configuration;
     using AVOne.Enum;
     using AVOne.Extensions;
     using AVOne.Models.Download;
@@ -17,8 +15,8 @@ namespace AVOne.Plugins.Extractors.Extractors
     public class BaiHuSeExtractor : BaseHttpExtractor, IDOMExtractor
     {
         private const string BaiHuSe = "https://paipancon.com/";
-        public BaiHuSeExtractor(IConfigurationManager manager, ILoggerFactory loggerFactory, IHttpClientFactory httpClientFactory)
-            : base(manager, loggerFactory, httpClientFactory, BaiHuSe)
+        public BaiHuSeExtractor(IHttpHelper httpHelper, ILoggerFactory loggerFactory)
+            : base(httpHelper, loggerFactory, BaiHuSe)
         {
         }
 
