@@ -1,0 +1,107 @@
+[
+  {
+    "guid": "01cc53ec-c415-4108-bbd4-a684a9801a32",
+    "name": "MetaTube",
+    "description": "Metadata Plugin for AVOne.",
+    "overview": "Metadata Plugin for AVOne.",
+    "owner": "weloveloli",
+    "category": "Metadata",
+    "imageUrl": "https://raw.githubusercontent.com/metatube-community/jellyfin-plugin-metatube/main/Jellyfin.Plugin.MetaTube/thumb.png",
+    "versions": [
+      {
+        "checksum": "487f83fcb771c87722c0b27acc6f267e",
+        "changelog": "Auto Released by Actions",
+        "targetAbi": "0.0.5.0",
+        "sourceUrl": "https://github.com/weloveloli/AVOne.Plugins/releases/download/v2023.527.1427.0/AVOne.MetaTube@v2023.527.1427.0.zip",
+        "timestamp": "2023-05-27T02:27:55",
+        "version": "2023.527.1427.0"
+      },
+      {
+        "checksum": "9b09805eec06955baa4305f8f411a27a",
+        "changelog": "Auto Released by Actions",
+        "targetAbi": "0.0.5.0",
+        "sourceUrl": "https://github.com/weloveloli/AVOne.Plugins/releases/download/v2023.515.324.0/AVOne.MetaTube@v2023.515.324.0.zip",
+        "timestamp": "2023-05-15",
+        "version": "2023.515.324.0"
+      },
+      {
+        "checksum": "9e406bcce51c1a71c76bdde599d616aa",
+        "changelog": "Auto Released by Actions",
+        "targetAbi": "0.0.5.0",
+        "sourceUrl": "https://github.com/weloveloli/AVOne.Plugins/releases/download/v2023.424.1103.0/AVOne.MetaTube@v2023.424.1103.0.zip",
+        "timestamp": "2023-04-24T15:00:09Z",
+        "version": "2023.424.1103.0"
+      },
+      {
+        "checksum": "953ccf608142a0c0287761cab5931ecd",
+        "changelog": "Auto Released by Actions",
+        "targetAbi": "0.0.5.0",
+        "sourceUrl": "https://github.com/weloveloli/AVOne.Plugins/releases/download/v2023.303.340.0/AVOne.MetaTube@v2023.303.340.0.zip",
+        "timestamp": "2023-03-03T15:00:09Z",
+        "version": "2023.303.340.0"
+      },
+      {
+        "checksum": "104c2aa28624cf484a0f7bd01a5a5898",
+        "changelog": "Auto Released by Actions",
+        "targetAbi": "0.0.3.0",
+        "sourceUrl": "https://github.com/weloveloli/AVOne.Plugins/releases/download/v2023.227.1458.0/AVOne.MetaTube@v2023.227.1458.0.zip",
+        "timestamp": "2023-02-27T15:00:09Z",
+        "version": "2023.227.1458.0"
+      }
+    ]
+  },
+  {
+    "guid": "F3A4B8C9-7D6E-4E15-A1B2-0C3D4E5F6A7B",
+    "name": "NM3U8DL",
+    "description": "NM3U8DL Plugin for AVOne.",
+    "overview": "NM3U8DL Plugin for AVOne.",
+    "owner": "weloveloli",
+    "category": "Downloader",
+    "imageUrl": "",
+    "versions": [
+      {
+        "checksum": "cbc5bee9f9e16ae7993e673dc6f08ec2",
+        "changelog": "Auto Released by Actions",
+        "targetAbi": "0.0.4.0",
+        "sourceUrl": "https://github.com/weloveloli/AVOne.Plugins/releases/download/v2023.303.335.0/AVOne.NM3U8DL@v2023.303.335.0.zip",
+        "timestamp": "2023-03-03T03:35:37Z",
+        "version": "2023.303.335.0"
+      },
+      {
+        "checksum": "6766ae8ff726296b7ec1ba28ee8650e6",
+        "changelog": "Auto Released by Actions",
+        "targetAbi": "0.0.4.0",
+        "sourceUrl": "https://github.com/weloveloli/AVOne.Plugins/releases/download/v2023.228.532.0/AVOne.NM3U8DL@v2023.228.532.0.zip",
+        "timestamp": "2023-02-28T05:32:29Z",
+        "version": "2023.228.532.0"
+      }
+    ]
+  },
+  {
+    "guid": "1C244026-DB79-9B2F-BCD2-ED635EDD2022",
+    "name": "ExtraExtractors",
+    "description": "Extractors Plugin for AVOne.",
+    "overview": "Extractors Plugin for AVOne.",
+    "owner": "weloveloli",
+    "category": "Extractor",
+    "imageUrl": "",
+    "versions": [
+      {
+        "checksum": "1eeaadd075f648b6e871f62f8ee5f2cf",
+        "changelog": "Auto Released by Actions",
+        "targetAbi": "0.0.5.0",
+        "sourceUrl": "https://github.com/weloveloli/AVOne.Plugins/releases/download/v2023.704.1110.0/AVOne.Plugin.Extractors@v2023.704.1110.0.zip",
+        "timestamp": "23-07-04",
+        "version": "2023.704.1110.0"
+      },
+      {
+        "checksum": "f8dfd80eaf30a9c4fed654001ce638aa",
+        "changelog": "Auto Released by Actions",
+        "targetAbi": "0.0.5.0",
+        "sourceUrl": "https://github.com/weloveloli/AVOne.Plugins/releases/download/v2023.528.014.0/AVOne.Plugins.Extractors@v2023.528.014.0.zip",
+        "timestamp": "2023-05-27T12:15:02",
+        "version": "2023.528.014.0"
+      }
+    ]
+  }
+]
