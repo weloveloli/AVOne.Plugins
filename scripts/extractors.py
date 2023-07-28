@@ -17,7 +17,7 @@ def generate(filename, version):
         'changelog': 'Auto Released by Actions',
         'targetAbi': '0.0.5.0',
         'sourceUrl': 'https://github.com/weloveloli/AVOne.Plugins/releases/download/'
-                     f'v{version}/AVOne.Plugin.Extractors@v{version}.zip',
+                     f'v{version}/AVOne.Plugins.Extractors@v{version}.zip',
         'timestamp': datetime.now().strftime('%y-%m-%d'),
         'version': version
     }
